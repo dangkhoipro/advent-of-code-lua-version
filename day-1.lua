@@ -1,5 +1,5 @@
 local utils = require('./utils')
-local lines = utils.lines_from("day-1.txt")
+local lines = utils.lines_from("tests/day-1.txt")
 
 local first_half = {}
 local second_half = {}

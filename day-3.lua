@@ -1,5 +1,5 @@
 local utils = require('./utils')
-local lines = utils.lines_from("day-3.txt")
+local lines = utils.lines_from("tests/day-3.txt")
 
 -- get data
 local data = lines[1]

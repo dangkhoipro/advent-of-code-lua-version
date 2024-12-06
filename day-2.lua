@@ -1,5 +1,5 @@
 local utils = require('./utils')
-local lines = utils.lines_from("day-2.txt")
+local lines = utils.lines_from("tests/day-2.txt")
 
 -- lines
 --[[
