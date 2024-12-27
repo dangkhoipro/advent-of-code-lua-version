@@ -35,7 +35,14 @@ local function deepcopy(orig, copies)
     return copy
 end
 
+local function get_table_length(T)
+  local count = 0
+  for _ in pairs(T) do count = count + 1 end
+  return count
+end
+
 return {
   lines_from = lines_from,
   deepcopy = deepcopy,
+  get_table_length = get_table_length
 }
